@@ -30,9 +30,7 @@ public class LongestPalindromicSubstring {
 							endIndex = endIndexTemp;
 						}
 					}
-					if(firstMatch) {
-						k++;
-					} else {
+					if(!firstMatch) {
 						firstMatch= true;
 						temp = Math.max(res, z-k+1);
 						startIndexTemp=k;
@@ -44,8 +42,8 @@ public class LongestPalindromicSubstring {
 								endIndex = endIndexTemp;
 							}
 						}
-						k++;
 					}
+					k++;
 					z--;
 				} else {
 					z=len-1-n;

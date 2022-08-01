@@ -1,13 +1,13 @@
 
-b
-java:S1066)"/Merge this if statement with the enclosing one.(‚Îµ8Óˆõö›/H…RMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(±ú¸‡8‚™‘ó›/HØRMAJORZ
-CODE_SMELL
-b
-java:S1066"/Merge this if statement with the enclosing one.(‚Îµ8ü§ïõ›/HúRMAJORZ
-CODE_SMELL
 
 java:S3776
-"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(öÅÇ¦üÿÿÿÿ8ï¾Áõ›/HîRCRITICALZ
+"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(öÅÇ¦üÿÿÿÿ8ï¾Áõ›/HRCRITICALZ
+CODE_SMELL
+b
+java:S1066"/Merge this if statement with the enclosing one.(‚Îµ8ü§ïõ›/HRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(±ú¸‡8‚™‘ó›/HRMAJORZ
+CODE_SMELL
+b
+java:S1066'"/Merge this if statement with the enclosing one.(‚Îµ8Óˆõö›/H‘RMAJORZ
 CODE_SMELL

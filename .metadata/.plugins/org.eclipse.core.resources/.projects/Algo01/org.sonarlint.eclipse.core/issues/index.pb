@@ -11,3 +11,7 @@ h
 8src/com/tamal/leetcode/algo/MedianOfTwoSortedArrays.java,8\f\8f72a34b6c1473b351f01358923cdcf7897b5110
 l
 <src/com/tamal/leetcode/algo/LongestPalindromicSubstring.java,e\7\e7bbeece929434b2d7ec17bf5392ee0db6b33320
+a
+1src/com/tamal/leetcode/algo/ZigZagConversion.java,6\9\69604a9477a41666f5911d73d761e699dfb2dae0
+_
+/src/com/tamal/leetcode/algo/ReverseInteger.java,c\d\cd2d25454a2c74a4663ccf51d4c34e30601ceeda
