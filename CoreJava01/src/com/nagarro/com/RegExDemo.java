@@ -17,14 +17,14 @@ public class RegExDemo {
 
 	public static void main(String[] args) {
 		RegExDemo regExDemo = new RegExDemo();
-		regExDemo.demo5();
+		regExDemo.demo3();
 
 	}
 	
 	private void demo1() {
 		int count = 0;
 		Pattern p = Pattern.compile("ab");
-		Matcher m = p.matcher("ababbaba");
+		Matcher m = p.matcher("ababbabab");
 		while(m.find()) {
 			count++;
 			System.out.println(m.start()+"..."+m.end()+"..."+m.group());
@@ -67,11 +67,12 @@ public class RegExDemo {
 		//mobile
 		//? means o or 1 time
 		Pattern p = Pattern.compile("(0|91)?[7-9][0-9]{9}");
-		Matcher m = p.matcher("9548745874");
+		Matcher m = p.matcher("9548745874saw");
 		while(m.find()) {
 			count++;
 			System.out.println(m.start()+"..."+m.end()+"..."+m.group());
 		}
+		//(match.find() && match.group().equals(str));  to check whole string
 		
 	}
 	
